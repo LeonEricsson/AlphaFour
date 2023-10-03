@@ -1,0 +1,6 @@
+asttokens==2.4.0
+backcall==0.2.0
+cmake==3.27.5
+comm==0.1.4
+numpy==1.26.0
+torch==2.0.1
