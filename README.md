@@ -4,7 +4,7 @@
 
 This repository contains an from-scratch implementation of the AlphaZero algorithm tailored for the game of Connect Four. Neural network guided Monte Carlo Tree Search (MCTS) is used to teach the computer how to play Connect Four. The neural network is trained through self-play, continually improving its ability to evaluate game states and suggest moves. This is an end-to-end solution where the neural network learns the rules, tactics, and strategies of the game without any human intervention.
 
-This project builds an intelligent Connect Four agent using a custom implementation of the AlphaZero algorithm. It implemenets custom PyTorch modules for the neural network components and NumPy for managing the game state and mechanics. The code is written entirely from scratch, allowing for detailed customization. Additionally, the code is optimized to run on CUDA-enabled GPUs. The training loop involves a self-play mechanism, where the agent competes against itself to generate training data, thereby incrementally improving its own performance.
+This project builds an intelligent Connect Four agent using a custom implementation of the AlphaZero algorithm. It implemenets custom PyTorch modules for the neural network components and NumPy for managing the game state and mechanics. The code is written entirely from scratch, allowing for detailed customization. The training loop involves a self-play mechanism, where the agent competes against itself to generate training data, thereby incrementally improving its own performance.
 
 ## Table of Contents
 
